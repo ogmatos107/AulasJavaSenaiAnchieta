@@ -68,6 +68,8 @@ desconto = preco>80? 0.5f : 0;
 
         System.out.println("desconto= "+ (preco-desconto*preco));
 
+        double sim=5555555;
+
     }
 }
 
