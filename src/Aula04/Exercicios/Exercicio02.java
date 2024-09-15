@@ -1,18 +1,23 @@
 package Aula04.Exercicios;
 
+import java.util.Scanner;
+
 public class Exercicio02 {
     public static void main(String[] args) {
 
-float preco=20;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("informe o valor da compra: ");
+        float valor = sc.nextFloat();
+
 float desconto=0.1f;
 
-         if (preco>100){
-            System.out.println("sua compra foi no valor de "+preco+" reais então voce recebeu um desconto de: "+ (desconto*preco)+" reais.");
+         if (valor>100){
+            System.out.println("sua compra foi no valor de "+valor+" reais então voce recebeu um desconto de: "+ (desconto*valor)+" reais.");
         }
         else{
-            System.out.println("sua compra foi no valor de " + preco+" então voce não recebeu desconto.");
+            System.out.println("sua compra foi no valor de " + valor+" então voce não recebeu desconto.");
         }
-
+            sc.close();
         }
     }
 
