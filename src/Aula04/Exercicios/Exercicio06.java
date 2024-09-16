@@ -20,7 +20,7 @@ public class Exercicio06 {
         else {
             System.out.println("revise sua nota...");
         }
-
+sc.close();
 
     }
 }
