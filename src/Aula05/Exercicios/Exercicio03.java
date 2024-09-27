@@ -6,14 +6,16 @@ public class Exercicio03 {
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("digite um numero ");
-        int contador= scanner.nextInt();
-        int fatorial= contador;
+        System.out.print("digite um numero: ");
+
+        int fatorial= scanner.nextInt();
+        int numero=fatorial;
 
         do {
-            fatorial*=contador;
+            fatorial*=numero;
+            fatorial++;
             System.out.println(fatorial);
-        }while (fatorial<contador);
+        }while (fatorial<numero);
 
 
     }
