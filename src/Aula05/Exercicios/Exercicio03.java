@@ -2,21 +2,21 @@ package Aula05.Exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio03 {
+public class  Exercicio03 {
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
         System.out.print("digite um numero: ");
-
-        int fatorial= scanner.nextInt();
-        int numero=fatorial;
-
+        int n1=scanner.nextInt();
+        int fatorial=1;
+        int contador=1;
         do {
-            fatorial*=numero;
-            fatorial++;
-            System.out.println(fatorial);
-        }while (fatorial<numero);
+            fatorial*=contador;
+            contador++;
+        }while (contador<=n1);
+        System.out.println(fatorial);
 
+        }
 
     }
-}
+
