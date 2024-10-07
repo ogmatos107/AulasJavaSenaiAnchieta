@@ -7,14 +7,14 @@ public class Reforço {
             System.out.println("cambalhota "+cc);
             cc++;
         }*/
-        int cc=0;
+        int cc = 0;
         do {
-            System.out.println("cambalhota "+cc);
+            System.out.println("cambalhota " + cc);
             cc++;
-        }while (cc<4);
+        } while (cc < 4);
 
-        for (int i=0;i<10;i++){
-            System.out.println("cambalhota "+i);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("cambalhota " + i);
         }
     }
 }

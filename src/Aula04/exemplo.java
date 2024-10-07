@@ -47,38 +47,41 @@ public class exemplo {
             System.out.println("adolescente\n");
         else if (idade >= 18 && idade < 65)
             System.out.println("adulto\n");
-        else if (idade >= 65 &&  idade <=150)
+        else if (idade >= 65 && idade <= 150)
             System.out.println("idoso\n");
         else
-            System.out.println("idade invalida\n");{}{}
+            System.out.println("idade invalida\n");
+        {
+        }
+        {
+        }
 
         //exemplo 04
 
-        int exem=55;
+        int exem = 55;
         boolean r;
 
-        r= exem<50 ? true:false;
-        System.out.println(r+"\n");
+        r = exem < 50 ? true : false;
+        System.out.println(r + "\n");
 
         //exemplo 05
 
-int preco= 100;
-float desconto;
+        int preco = 100;
+        float desconto;
 
-desconto = preco>80? 0.5f : 0;
+        desconto = preco > 80 ? 0.5f : 0;
 
-        System.out.println("desconto= "+ (preco-desconto*preco+"\n"));
+        System.out.println("desconto= " + (preco - desconto * preco + "\n"));
 
         //exemplo 06 switch
 
-        corpal="verde";
-        switch (corpal)
-        {
+        corpal = "verde";
+        switch (corpal) {
             case "verde":
                 System.out.println("vai\n");
                 break;
             case "amarelo":
-                    System.out.println("calmou\n");
+                System.out.println("calmou\n");
                 break;
             case "vermelho":
                 System.out.println("perai\n");
@@ -89,14 +92,13 @@ desconto = preco>80? 0.5f : 0;
 
         //exemplo 07 menu
 
-        int opcao= 2;
+        int opcao = 2;
         System.out.println("escolha uma opção\n");
         System.out.println("digite 01 para falar com o diabo");
         System.out.println("digite 02 para falar com o Neymar");
         System.out.println("digite 03 para falar com bolsonaro\n");
 
-        switch (opcao)
-        {
+        switch (opcao) {
             case 1:
                 System.out.println("preciso do seu sangue");
                 break;

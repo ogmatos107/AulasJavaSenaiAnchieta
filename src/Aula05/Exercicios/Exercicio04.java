@@ -10,13 +10,14 @@ public class Exercicio04 {
         boolean fake = false;
         boolean vdd = true;
         for (int contador = 1; contador < n1; contador++) {
-            if (n1==2) {
+            if (n1 == 2) {
                 System.out.println(vdd);
             } else if (n1 % 2 == 0)
                 System.out.println(fake);
             else {
                 System.out.println(vdd);
-            }break;
+            }
+            break;
         }
 
     }

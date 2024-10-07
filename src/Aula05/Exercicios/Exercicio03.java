@@ -11,9 +11,9 @@ public class  Exercicio03 {
         int fatorial=1;
         int contador=1;
         do {
-            fatorial*=contador;
+            fatorial *= contador;
             contador++;
-        }while (contador<=n1);
+        } while (contador <= n1);
         System.out.println(fatorial);
 
         }

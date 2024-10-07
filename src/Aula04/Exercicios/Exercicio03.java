@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Exercicio03 {
     public static void main(String[] args) {
 
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("digite seu código: ");
 
-        int cod= scanner.nextInt();
-        switch (cod){
+        int cod = scanner.nextInt();
+        switch (cod) {
             case 1:
                 System.out.println("eletrônico");
                 break;

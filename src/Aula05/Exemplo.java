@@ -101,11 +101,11 @@ public class Exemplo {
         /*exemplo for fatorial*/
 
         System.out.println("digite um numero ");
-        int fatorial= scanner.nextInt();
-        int numero=fatorial;
+        int fatorial = scanner.nextInt();
+        int numero = fatorial;
 
-        for (int i=1;i<numero;i++){
-            fatorial*=i;
+        for (int i = 1; i < numero; i++) {
+            fatorial *= i;
         }
         System.out.println(fatorial);
 

@@ -1,6 +1,7 @@
 package Aula04.Exercicios;
 
 import java.util.Scanner;
+
 public class Exercicio06 {
     public static void main(String[] args) {
 
@@ -9,18 +10,16 @@ public class Exercicio06 {
 
         float nota = sc.nextFloat();
 
-        if (nota >=7 && nota <11) {
+        if (nota >= 7 && nota < 11) {
             System.out.println("Aprovado.");
-        }
-        else if (nota >4 && nota <7){
+        } else if (nota > 4 && nota < 7) {
             System.out.println("Recuperação.");
-        } else if (nota >=0 && nota <=4) {
+        } else if (nota >= 0 && nota <= 4) {
             System.out.println("Reprovado.");
-        }
-        else {
+        } else {
             System.out.println("revise sua nota...");
         }
-sc.close();
+        sc.close();
 
     }
 }

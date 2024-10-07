@@ -22,23 +22,22 @@ public class Exercicio07 {
 
         float r;
 
-        switch (op)
-        {
+        switch (op) {
             case 1:
-                System.out.println((r=num+num2));
+                System.out.println((r = num + num2));
                 break;
             case 2:
-                System.out.println((r=num-num2));
+                System.out.println((r = num - num2));
                 break;
             case 3:
-                System.out.println((r=num/num2));
+                System.out.println((r = num / num2));
                 break;
-                case 4:
-                    System.out.println((r=num*num2));
-                    break;
+            case 4:
+                System.out.println((r = num * num2));
+                break;
             default:
                 System.out.println("não existe essa opção");
         }
-            sc.close();
+        sc.close();
     }
 }

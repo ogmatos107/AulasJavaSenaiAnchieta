@@ -9,15 +9,14 @@ public class Exercicio02 {
         System.out.println("informe o valor da compra: ");
         float valor = sc.nextFloat();
 
-float desconto=0.1f;
+        float desconto = 0.1f;
 
-         if (valor>100){
-            System.out.println("sua compra foi no valor de "+valor+" reais então voce recebeu um desconto de: "+ (desconto*valor)+" reais.");
+        if (valor > 100) {
+            System.out.println("sua compra foi no valor de " + valor + " reais então voce recebeu um desconto de: " + (desconto * valor) + " reais.");
+        } else {
+            System.out.println("sua compra foi no valor de " + valor + " então voce não recebeu desconto.");
         }
-        else{
-            System.out.println("sua compra foi no valor de " + valor+" então voce não recebeu desconto.");
-        }
-            sc.close();
-        }
+        sc.close();
     }
+}
 

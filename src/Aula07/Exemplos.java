@@ -2,9 +2,10 @@ package Aula07;
 
 public class Exemplos {
     public static void main(String[] args) {
-    funcaoSemParametroSemRetorno();
+        funcaoSemParametroSemRetorno();
     }
-    public static void funcaoSemParametroSemRetorno(){
+
+    public static void funcaoSemParametroSemRetorno() {
         System.out.println("teste");
     }
 }

@@ -16,18 +16,18 @@ public class Exercicio10 {
         System.out.println("3- libra");
         Scanner sc2 = new Scanner(System.in);
         System.out.println("digite a opção: ");
-        int op= sc2.nextInt();
+        int op = sc2.nextInt();
 
 
-        switch (op){
+        switch (op) {
             case 1:
-                System.out.print("o valor convertido é de "+(real/5.50+" dolares."));
+                System.out.print("o valor convertido é de " + (real / 5.50 + " dolares."));
                 break;
             case 2:
-                System.out.print("o valor convertido é de "+(real/6.10+" euros"));
+                System.out.print("o valor convertido é de " + (real / 6.10 + " euros"));
                 break;
             case 3:
-                System.out.print("o valor convertido é de "+(real/7.25+" libras"));
+                System.out.print("o valor convertido é de " + (real / 7.25 + " libras"));
         }
         sc2.close();
         sc.close();

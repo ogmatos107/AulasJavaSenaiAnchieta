@@ -13,16 +13,16 @@ public class Exemplo {
 
         System.out.println("primeiro elemento "+numeros[0]+", segundo elemento "+numeros[1]+", terceiro elemento "+numeros[2]+", quarto elemento "+numeros[3]+", quinto elemento "+numeros[4]);*/
 
-        int[][] matriz={
-                {1,2,3},
-                {4,5,6}
+        int[][] matriz = {
+                {1, 2, 3},
+                {4, 5, 6}
         };
 
 
-        for (int i=0;i<matriz.length;i++){
-        for (int j=0;j<matriz[i].length;j++){
-            System.out.println("elemento na posição ["+i+"]["+j+"]: "+matriz[i][j]);
-        }
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.println("elemento na posição [" + i + "][" + j + "]: " + matriz[i][j]);
+            }
         }
         /*Scanner scanner=new Scanner(System.in);
         int[]vetor=new int[2];
