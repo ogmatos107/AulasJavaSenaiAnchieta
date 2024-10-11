@@ -1,6 +1,7 @@
 package Aula08;
 
 import java.io.File;
+import java.io.IOException;
 
 public class Exemplo01 {
     public static void main(String[] args) {
@@ -9,7 +10,15 @@ public class Exemplo01 {
         if (arquivo.exists()){
             System.out.println("existe");
         }else {
-            System.out.println("não existe");
+            try {
+                if (arquivo.createNewFile()){
+                    System.out.println("arquivo criado com sucesso");
+                }else {
+                    System.out.println("falha ao criar arquivo");
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
