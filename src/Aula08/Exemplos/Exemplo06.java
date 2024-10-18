@@ -1,4 +1,4 @@
-package Aula08;
+package Aula08.Exemplos;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -7,8 +7,8 @@ import java.io.IOException;
 public class Exemplo06 {
     public static void main(String[] args) {
         try {
-            FileWriter filewrit=new FileWriter("src\\arquivo.txt",true);
-            BufferedWriter bufferedWriter=new BufferedWriter(filewrit);
+            FileWriter filewrit = new FileWriter("src\\arquivo.txt", true);
+            BufferedWriter bufferedWriter = new BufferedWriter(filewrit);
             bufferedWriter.write("\nbom dia sistema");
             bufferedWriter.close();
 
