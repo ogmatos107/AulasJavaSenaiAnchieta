@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Exemplo03 {
     public static void main(String[] args) {
         try {
-            FileWriter fileWriter = new FileWriter("C:\\Users\\Aluno\\Desktop\\gh repo clone ogmatos107\\AulasJavaSenaiAchieta7\\src\\Aula08\\arquivo.txt", true);
+            FileWriter fileWriter = new FileWriter("C:\\Users\\Aluno\\Documents\\AulasJavaSenaiAchieta\\src\\arquivo.txt", true);
 
             fileWriter.write("\npedro\nmarcos\njoao\nluisa\nmatheus");
             fileWriter.close();

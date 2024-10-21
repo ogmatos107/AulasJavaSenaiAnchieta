@@ -8,16 +8,12 @@ import java.util.Scanner;
 public class Exercicio01 {
     public static void main(String[] args) {
         try {
-            FileWriter alunos = new FileWriter("C:\\Users\\Aluno\\Desktop\\AulasJavaSenaiAchieta\\src\\alunos.txt");
-            Scanner scanner=new Scanner(System.in);
-            System.out.println("escreva cinco nomes:");
-            for (int contagem=0;contagem<5;contagem++){
-                String nomes= scanner.nextLine();
-                System.out.println(nomes+"\n");
-            }
+            FileWriter fileWriter = new FileWriter("C:\\Users\\Aluno\\Documents\\AulasJavaSenaiAchieta\\src\\alunos.txt");
+            fileWriter.write("Pedro\nMatos\nGabriella\nFreitas\nJesus Cristp");
+            fileWriter.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
-}
+    }
+
